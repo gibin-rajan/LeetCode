@@ -4,4 +4,4 @@ class Solution:
             return None
         if root.val== val:
             return root
-        return self.searchBST(root.left, val) if val< root.val else self.searchBST(root.right, val)
+        return self.searchBST(root.left, val) if val< root.val else self.searchBST(root.right, val) 
