@@ -1,5 +1,5 @@
 class Solution:
-    def longestValidParentheses(self, s: str) -> int:
+    def longestValidParentheses(self, s):
         stack=[]
         l=['0']*len(s)
         for ind,i in enumerate(s):
