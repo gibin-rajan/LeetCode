@@ -12,4 +12,3 @@ class Solution(object):
                 max += prices[i] - start
             start = prices[i]
         return max
-
